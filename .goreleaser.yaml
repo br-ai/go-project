@@ -1,4 +1,3 @@
-version: 2
 builds:
   - env:
       - CGO_ENABLED=0
@@ -16,7 +15,3 @@ builds:
       - -X main.version={{.Version}}
       - -X main.commitSHA={{.FullCommit}}
       - -X main.buildDate={{.Date}}
-release:
-  github:
-    owner: "br-ai"
-    name: "go-project"
