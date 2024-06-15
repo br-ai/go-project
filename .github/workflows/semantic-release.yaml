@@ -1,4 +1,4 @@
-name: Release for all
+name: Semantic-release
 
 on:
   push:
