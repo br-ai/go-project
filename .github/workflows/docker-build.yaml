@@ -23,5 +23,5 @@ jobs:
 
       - name: Push Docker image
         run: |
-          IMAGE_NAME="${{ secrets.DOCKER_USERNAME }}/my-app:${GITHUB_REF#refs/tags/}"
+          IMAGE_NAME="${{ secrets.DOCKER_USERNAME }}/go-project:${GITHUB_REF#refs/tags/}"
           docker push $IMAGE_NAME
