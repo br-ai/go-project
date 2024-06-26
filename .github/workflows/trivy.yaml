@@ -1,4 +1,4 @@
-name: Build and Scan Docker Image
+name: trivy scan
 
 on:
   workflow_dispatch:
